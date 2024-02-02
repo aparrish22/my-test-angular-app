@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+    /* Optionally, hide horizontal overflow */
+}
+
+.app-container {
+    max-width: 1200px;
+    /* Adjust as needed */
+    margin: 0 auto;
+}

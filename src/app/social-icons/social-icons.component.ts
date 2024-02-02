@@ -3,9 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-social-icons',
     standalone: true,
-    imports: [
-
-    ],
+    imports: [],
     templateUrl: './social-icons.component.html',
     styleUrls: ['./social-icons.component.css']
 })
