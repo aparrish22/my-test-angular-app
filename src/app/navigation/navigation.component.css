@@ -1,0 +1,87 @@
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: none; /* Remove the maximum width */
+    margin: 0 auto; /* Center the navigation container horizontally */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo-container {
+    margin-right: 20px;
+}
+
+.logo {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Adjust the height as needed */
+}
+
+/* Add styles for navigation links as needed */
+.navigation-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation-link {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation-link:hover {
+    color: #ffd700;
+    /* Adjust hover color as needed */
+}
+
+.navigation-links {
+    margin-left: auto;
+}
+
+.sign-up-button {
+    margin-left: auto; /* Push the sign-up button to the right */
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+  
+  .sign-up-button:hover {
+    background-color: #ffc107; /* Adjust the hover background color as needed */
+  }
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fadeInDown 0.5s ease-in-out;
+    /* Optional: Add a fade-in animation */
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

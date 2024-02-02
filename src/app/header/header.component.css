@@ -1,0 +1,25 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: none; /* Remove the maximum width */
+    margin: 0 auto; /* Center the header container horizontally */
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.social-icons-container {
+    order: 0;
+    /* Move social icons to the beginning of the flex container */
+}
+
+.header-title {
+    text-align: center;
+    margin: 0;
+}
+
+.number-title {
+    text-align: right;
+}

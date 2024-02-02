@@ -1,0 +1,14 @@
+.content-section-container {
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    /* Adjust as needed */
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,26 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  
+    display: flex;
+    justify-content: space-between; /* Spread items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center; /* Center social icons vertically */
+  }
+  
+  .social-icon {
+    margin-right: 10px; /* Adjust spacing between social icons */
+  }
+  
+  .copyright {
+    flex-grow: 1; /* Allow the copyright to take remaining space */
+  }
